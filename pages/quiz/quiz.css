@@ -8,6 +8,8 @@
 
 :root {
     --bg-color: #f4f6fa;
+    --bg-span: #f4f6fa;
+    --color-span: #626c7f;
     --purple: #a729f5;
     --purple-hover: rgba(167, 41, 245, 0.7);
     --white: #fff;
@@ -27,6 +29,7 @@
 
 body.escuro{
     --bg-color: #313e51;
+    --color-span: #313e51;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --primary-text-color: #fff;
@@ -66,7 +69,7 @@ header{
     width: 100%;
 }
 
-.assunto_icone h1{
+.assunto h1{
     font-size: 18px;
     font-weight: 500;
     color: var(--primary-text-color);
@@ -204,9 +207,9 @@ main{
     display: block;
     width: 40px;
     height: 40px;
-    background: var(--bg-color);
+    background: var(--bg-span);
     border-radius: 5px;
-    color: var(--secondary-text-color);
+    color: var(--color-span);
 
     display: flex;
     align-items: center;
